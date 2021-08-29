@@ -1,0 +1,19 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start:  mvi c,65h
+	mvi a,92h
+	mov b,a
+	mov a,c
+	out 00h
+	mov a,b
+	out 01h
+
+
+hlt
